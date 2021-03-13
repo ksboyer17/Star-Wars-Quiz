@@ -99,3 +99,12 @@
 .hide {
     display: none;
 }
+
+.resultBtn {
+    background-color: yellow !important;
+}
+
+.resultBtn:hover{
+    transform: scale(1.25);
+    transition: 1.15ms;
+}
