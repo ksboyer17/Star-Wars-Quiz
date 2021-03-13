@@ -3,6 +3,19 @@
     background-color: black !important;
 }
 
+@font-face {
+  font-family: 'Jedi';
+  src: url('./fonts/starjedi.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/starjedi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/starjedi.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/starjedi.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/starjedi.ttf') format('truetype'),
+      url('./fonts/starjedi.svg#starjedi') format('svg');
+       font-weight: 500;
+       font-style: normal;
+       letter-spacing: 5px;
+}
+
 .container {
     text-align: center;
     align-items: center;
@@ -13,8 +26,9 @@
     background-color: black;
 }
 
-.title {
-    color: white !important;
+.title.is-1 {
+  font-family: "Jedi", "Helvetica", "Arial", sans-serif !important;
+  color: yellow !important;
 }
 
 p {
@@ -69,6 +83,7 @@ p {
 .hide {
     display: none;
 }
+<<<<<<< HEAD
 
 .resultBtn {
     background-color: yellow !important;
@@ -78,3 +93,5 @@ p {
     transform: scale(1.25);
     transition: 1.15ms;
 }
+=======
+>>>>>>> c0bfcd86f06881e3e4df1fbde654ca95e2fcfe49
