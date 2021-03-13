@@ -36,7 +36,8 @@ p {
     margin-top: 3rem;
 }
 
-.startBtn {
+.startBtn,
+.resultBtn {
     width: 400px;
     margin: 2.5rem;
     color: black ;
@@ -80,22 +81,12 @@ p {
     background-color: yellow;
 }
 
-.hide {
-    display: none;
-<<<<<<< HEAD
-}
-=======
-}
-<<<<<<< HEAD
-
-.resultBtn {
-    background-color: yellow !important;
-}
-
-.resultBtn:hover{
+.startBtn:hover,
+.resultBtn:hover {
     transform: scale(1.25);
     transition: 1.15ms;
 }
-=======
->>>>>>> c0bfcd86f06881e3e4df1fbde654ca95e2fcfe49
->>>>>>> main
+
+.hide {
+    display: none;
+}
