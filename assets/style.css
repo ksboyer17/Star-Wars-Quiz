@@ -45,7 +45,8 @@
   margin-top: 1rem;
 }
 
-.startBtn {
+.startBtn,
+.resultBtn {
     width: 400px;
     margin: 2.5rem;
     color: black ;
@@ -87,6 +88,12 @@
 
 .radio:hover {
     background-color: yellow;
+}
+
+.startBtn:hover,
+.resultBtn:hover {
+    transform: scale(1.25);
+    transition: 1.15ms;
 }
 
 .hide {
