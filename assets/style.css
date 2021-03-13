@@ -1,0 +1,35 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black !important;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+
+.notification {
+    background-color: black;
+}
+
+.title {
+    color: white !important;
+}
+
+p {
+    color: white;
+    margin-top: 3rem;
+}
+
+.startBtn {
+    width: 400px;
+    margin: 2.5rem;
+    color: black ;
+    background-color: yellow !important;
+}
+
+.image {
+    padding-top: 0px !important;
+
+}
