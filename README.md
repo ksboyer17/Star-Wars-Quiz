@@ -22,9 +22,4 @@ This project was generated as a collaborative effort by Casandra Mcdonald, Willi
 This project was generated using a combination of HTML, CSS, and Javascript.
 A simple quiz to determine what Star Wars character you are.
 
-<<<<<<< HEAD
-Cas: May the force be with you.
-
-=======
->>>>>>> main
 
