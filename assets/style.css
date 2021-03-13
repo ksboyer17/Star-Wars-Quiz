@@ -1,5 +1,6 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
     background-color: black !important;
 }
 
@@ -31,11 +32,22 @@
   color: yellow !important;
 }
 
-p {
+#intro{
+    font-family: 'Open Sans', sans-serif;
     color: white;
-    margin-top: 3rem;
+    line-height: 30px;
+    margin-top: 2rem;
 }
 
+<<<<<<< HEAD
+=======
+#quote{
+
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+>>>>>>> main
 .startBtn,
 .resultBtn {
     width: 400px;
@@ -83,6 +95,23 @@ p {
 
 .startBtn:hover,
 .resultBtn:hover {
+<<<<<<< HEAD
+=======
+    transform: scale(1.25);
+    transition: 1.15ms;
+}
+
+.hide {
+    display: none;
+}
+<<<<<<< HEAD
+
+.resultBtn {
+    background-color: yellow !important;
+}
+
+.resultBtn:hover{
+>>>>>>> main
     transform: scale(1.25);
     transition: 1.15ms;
 }
