@@ -1,6 +1,20 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
     background-color: black !important;
+}
+
+@font-face {
+  font-family: 'Jedi';
+  src: url('./fonts/starjedi.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/starjedi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/starjedi.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/starjedi.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/starjedi.ttf') format('truetype'),
+      url('./fonts/starjedi.svg#starjedi') format('svg');
+       font-weight: 500;
+       font-style: normal;
+       letter-spacing: 5px;
 }
 
 .container {
@@ -13,16 +27,26 @@
     background-color: black;
 }
 
-.title {
-    color: white !important;
+.title.is-1 {
+  font-family: "Jedi", "Helvetica", "Arial", sans-serif !important;
+  color: yellow !important;
 }
 
-p {
+#intro{
+    font-family: 'Open Sans', sans-serif;
     color: white;
-    margin-top: 3rem;
+    line-height: 30px;
+    margin-top: 2rem;
 }
 
-.startBtn {
+#quote{
+
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.startBtn,
+.resultBtn {
     width: 400px;
     margin: 2.5rem;
     color: black ;
@@ -66,6 +90,21 @@ p {
     background-color: yellow;
 }
 
+.startBtn:hover,
+.resultBtn:hover {
+    transform: scale(1.25);
+    transition: 1.15ms;
+}
+
 .hide {
     display: none;
+}
+
+.resultBtn {
+    background-color: yellow !important;
+}
+
+.resultBtn:hover{
+    transform: scale(1.25);
+    transition: 1.15ms;
 }
