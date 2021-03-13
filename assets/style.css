@@ -33,3 +33,39 @@ p {
     padding-top: 0px !important;
 
 }
+
+.question-container {
+    color: yellow;
+}
+
+.raidoBtnBig {
+    width: 5em;
+    height: 5em;
+    margin: 10px;
+}
+
+.raidoBtnMid {
+    width: 4em;
+    height: 4em;
+    margin: 10px;
+}
+
+.raidoBtnSmall {
+    width: 3em;
+    height: 3em;
+    margin: 10px;
+}
+
+.raidoBtnReg {
+    width: 2em;
+    height: 2em;
+    margin: 10px;
+}
+
+.radio:hover {
+    background-color: yellow;
+}
+
+.hide {
+    display: none;
+}

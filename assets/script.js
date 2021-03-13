@@ -1,0 +1,2 @@
+var startBtn = $(startBtn)
+
