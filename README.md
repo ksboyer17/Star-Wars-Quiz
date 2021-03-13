@@ -30,7 +30,6 @@ Obiwan Kenobi- 123-128
 Yoda- 129-134
 Mace Windu - 135-140
 
-https://ksboyer17.github.io/Star-Wars-Quiz/
 **Link to Deployed Page:**
 https://ksboyer17.github.io/Star-Wars-Quiz/ -
 [GitHub](https://ksboyer17.github.io/Star-Wars-Quiz/ )
@@ -44,6 +43,11 @@ https://github.com/ksboyer17/Star-Wars-Quiz -
  https://xd.adobe.com/view/482cff50-5f69-4621-af24-b3fb9d3ba736-1d7f/?fullscreen -
 [Adobe](https://xd.adobe.com/view/482cff50-5f69-4621-af24-b3fb9d3ba736-1d7f/?fullscreen)
 
+**Link to Presentation:**
+ https://xd.adobe.com/view/b959ec12-9fa1-4711-b723-59203ee201e7-ec0a/?fullscreen -
+[Adobe](https://xd.adobe.com/view/b959ec12-9fa1-4711-b723-59203ee201e7-ec0a/?fullscreen)
+
+
 ![Screenshot of the Start Page]()
 
 ![Screenshot of the Quiz]()
@@ -51,10 +55,6 @@ https://github.com/ksboyer17/Star-Wars-Quiz -
 ![Screenshot of the Final Page]()
 
 This project was generated as a collaborative effort by Casandra Mcdonald, William Flores, Shangxian Piao and Kenny Boyer.
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 This project was generated using a combination of HTML, CSS, and Javascript.
 A simple quiz to determine what Star Wars character you are.
 
