@@ -1,0 +1,85 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black !important;
+}
+
+@font-face {
+  font-family: 'Jedi';
+  src: url('./fonts/starjedi.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/starjedi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/starjedi.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/starjedi.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/starjedi.ttf') format('truetype'),
+      url('./fonts/starjedi.svg#starjedi') format('svg');
+       font-weight: 500;
+       font-style: normal;
+       letter-spacing: 5px;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+
+.notification {
+    background-color: black;
+}
+
+.title.is-1 {
+  font-family: "Jedi", "Helvetica", "Arial", sans-serif !important;
+  color: yellow !important;
+}
+
+p {
+    color: white;
+    margin-top: 3rem;
+}
+
+.startBtn {
+    width: 400px;
+    margin: 2.5rem;
+    color: black ;
+    background-color: yellow !important;
+}
+
+.image {
+    padding-top: 0px !important;
+
+}
+
+.question-container {
+    color: yellow;
+}
+
+.raidoBtnBig {
+    width: 5em;
+    height: 5em;
+    margin: 10px;
+}
+
+.raidoBtnMid {
+    width: 4em;
+    height: 4em;
+    margin: 10px;
+}
+
+.raidoBtnSmall {
+    width: 3em;
+    height: 3em;
+    margin: 10px;
+}
+
+.raidoBtnReg {
+    width: 2em;
+    height: 2em;
+    margin: 10px;
+}
+
+.radio:hover {
+    background-color: yellow;
+}
+
+.hide {
+    display: none;
+}
