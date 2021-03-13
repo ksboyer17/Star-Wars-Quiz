@@ -36,7 +36,8 @@ p {
     margin-top: 3rem;
 }
 
-.startBtn {
+.startBtn,
+.resultBtn {
     width: 400px;
     margin: 2.5rem;
     color: black ;
@@ -78,6 +79,12 @@ p {
 
 .radio:hover {
     background-color: yellow;
+}
+
+.startBtn:hover,
+.resultBtn:hover {
+    transform: scale(1.25);
+    transition: 1.15ms;
 }
 
 .hide {
