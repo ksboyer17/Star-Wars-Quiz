@@ -1,5 +1,6 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
     background-color: black !important;
 }
 
@@ -31,9 +32,17 @@
   color: yellow !important;
 }
 
-p {
+#intro{
+    font-family: 'Open Sans', sans-serif;
     color: white;
-    margin-top: 3rem;
+    line-height: 30px;
+    margin-top: 2rem;
+}
+
+#quote{
+
+  font-style: italic;
+  margin-top: 1rem;
 }
 
 .startBtn,
