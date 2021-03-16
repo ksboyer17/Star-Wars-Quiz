@@ -86,14 +86,10 @@
     margin: 10px;
 }
 
-.radio:hover {
-    background-color: yellow;
-}
-
 .startBtn:hover,
 .resultBtn:hover {
     transform: scale(1.25);
-    transition: 1.15ms;
+    transition: 0.3s;
 }
 
 .hide {
@@ -104,7 +100,31 @@
     background-color: yellow !important;
 }
 
-.resultBtn:hover{
-    transform: scale(1.25);
-    transition: 1.15ms;
+
+.resultImage {
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    margin: 0 0 1rem 0;
+}
+
+#resultDescription {
+    word-wrap: normal;
+}
+
+.media-content {
+    border: 1px solid;
+    border-color: yellow;
+    padding: 10px;
+}
+
+.media-content:hover {
+    transform: scale(1.015);
+    box-shadow: 0 5px 15px yellow;
+    transition: box-shadow 0.3s ease-in-out;
 }
