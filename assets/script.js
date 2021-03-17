@@ -132,5 +132,17 @@ function handleScore() {
         var userDescription = "You are a human male smuggler, gambler, and card player. You mean no harm to others, but at the same time look out for yourself. You are charming and conniving.";
         resultDescription.text(userDescription)
 
+    } if (userScore > 81 && userScore <= 86){
+        var userCharacter = "C3P0";
+        resulteName.text(userCharacter);
+        var userDescription = "You are a droid programmed for etiquette and protocol. You seem to have pure intentions. You are very literal and honest. ";
+        resultDescription.text(userDescription)
+
+    } if (userScore > 87 && userScore <= 92){
+        var userCharacter = "C3P0";
+        resulteName.text(userCharacter);
+        var userDescription = "You are a droid programmed for etiquette and protocol. You seem to have pure intentions. You are very literal and honest. ";
+        resultDescription.text(userDescription)
+
     }
 }
