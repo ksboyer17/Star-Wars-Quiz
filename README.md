@@ -14,8 +14,8 @@ Vader: 26-31
 Count Dooku: 32-37
 Darth Maul: 38-43
 General Grievous: 44-59
-Kylo Ren: 51-56
-Jabba the Hut -57-62
+Nute Gunray: 51-56
+Greedo -57-62
 Boba Fett: 63-68
 Anakin Skywalker: 69-74
 Lando Calirissian: 75-80
