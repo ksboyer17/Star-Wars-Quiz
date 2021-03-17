@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 var startBtn = $("#startBtn");
 var resultBtn = $("#resultBtn");
 var restartBtn = $("#restartBtn");
@@ -6,7 +10,10 @@ var questionContainer = $("#questionContainer");
 var resultContainer = $("#resultContainer");
 var resulteName = $("#resulteName");
 var resultDescription = $("#resultDescription")
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 
 console.log("this is linked")
 
@@ -20,6 +27,10 @@ startBtn.click(function() {
 resultBtn.click(function() {
     questionContainer.addClass("hide");
     resultContainer.removeClass("hide")
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 });
 
 restartBtn.click(function(){
@@ -132,6 +143,7 @@ function handleScore() {
         var userDescription = "You are a human male smuggler, gambler, and card player. You mean no harm to others, but at the same time look out for yourself. You are charming and conniving.";
         resultDescription.text(userDescription)
 
+<<<<<<< HEAD
     } if (userScore > 81 && userScore <= 86){
         var userCharacter = "C3P0";
         resulteName.text(userCharacter);
@@ -146,3 +158,7 @@ function handleScore() {
 
     }
 }
+=======
+    }
+}
+>>>>>>> main

@@ -14,8 +14,8 @@ Vader: 26-31
 Count Dooku: 32-37
 Darth Maul: 38-43
 General Grievous: 44-59
-Kylo Ren: 51-56
-Jabba the Hut -57-62
+Nute Gunray: 51-56
+Greedo -57-62
 Boba Fett: 63-68
 Anakin Skywalker: 69-74
 Lando Calirissian: 75-80
@@ -30,7 +30,6 @@ Obiwan Kenobi- 123-128
 Yoda- 129-134
 Mace Windu - 135-140
 
-https://ksboyer17.github.io/Star-Wars-Quiz/
 **Link to Deployed Page:**
 https://ksboyer17.github.io/Star-Wars-Quiz/ -
 [GitHub](https://ksboyer17.github.io/Star-Wars-Quiz/ )
@@ -43,6 +42,11 @@ https://github.com/ksboyer17/Star-Wars-Quiz -
 **Link to WireFrame:**
  https://xd.adobe.com/view/482cff50-5f69-4621-af24-b3fb9d3ba736-1d7f/?fullscreen -
 [Adobe](https://xd.adobe.com/view/482cff50-5f69-4621-af24-b3fb9d3ba736-1d7f/?fullscreen)
+
+**Link to Presentation:**
+ https://xd.adobe.com/view/b959ec12-9fa1-4711-b723-59203ee201e7-ec0a/?fullscreen -
+[Adobe](https://xd.adobe.com/view/b959ec12-9fa1-4711-b723-59203ee201e7-ec0a/?fullscreen)
+
 
 ![Screenshot of the Start Page]()
 
