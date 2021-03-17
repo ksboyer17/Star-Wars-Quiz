@@ -1,3 +1,4 @@
+
 var startBtn = $("#startBtn");
 var resultBtn = $("#resultBtn");
 var restartBtn = $("#restartBtn");
@@ -6,7 +7,6 @@ var questionContainer = $("#questionContainer");
 var resultContainer = $("#resultContainer");
 var resulteName = $("#resulteName");
 var resultDescription = $("#resultDescription")
-
 
 console.log("this is linked")
 
@@ -20,6 +20,7 @@ startBtn.click(function() {
 resultBtn.click(function() {
     questionContainer.addClass("hide");
     resultContainer.removeClass("hide")
+
 });
 
 restartBtn.click(function(){
