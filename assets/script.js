@@ -8,7 +8,7 @@ var resulteName = $("#resulteName");
 var resultDescription = $("#resultDescription")
 var resultImage = $("#resultImage")
 var beforeBtnOne = $("#beforeBtnOne")
-var beforeBtnTwe = $("#beforeBtnTwe")
+var beforeBtnTwo = $("#beforeBtnTwo")
 
 
 console.log("this is linked")
@@ -188,6 +188,19 @@ function handleScore() {
         .then(function(response){
             console.log(response.name);
             var responseName = response.name;
+                if (localStorage.getItem("CharacterOne_name") === null) {
+                    localStorage.setItem("CharacterOne_name", responseName);
+                    beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
+                    
+                } if (localStorage.getItem("CharacterTwo_name") === null) {
+                    localStorage.setItem("CharacterTwo_name", responseName);
+                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name"));
+                } if (localStorage.getItem("CharacterOne_name") !== null && localStorage.getItem("CharacterTwo_name") !== null ){
+                    localStorage.setItem("CharacterOne_name", localStorage.getItem("CharacterTwo_name"));
+                    localStorage.setItem("CharacterTwo_name", responseName);
+                    beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
+                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name"));
+                };
             var characterRes = document.createElement("span");
             characterRes.setAttribute("class","result container is-widescreen result-container");
             characterRes.innerHTML = responseName;
@@ -221,11 +234,7 @@ function handleScore() {
         
     };
     
-    characterInfo()// added on Mar 16th 
-
-    function localStorageOne() {
-
-    }
+    characterInfo()// added on Mar 16t
 }
 
 
