@@ -9,6 +9,7 @@ var resultDescription = $("#resultDescription")
 var resultImage = $("#resultImage")
 var beforeBtnOne = $("#beforeBtnOne")
 var beforeBtnTwo = $("#beforeBtnTwo")
+var particles = $("#particles-js")
 var responseName = ""
 
 console.log("this is linked")
@@ -17,6 +18,7 @@ console.log("this is linked")
 startBtn.click(function() {
     homePage.addClass("hide");
     questionContainer.removeClass("hide")
+    particles.removeClass("particles");
 });
 
 
@@ -30,7 +32,7 @@ restartBtn.click(function(){
     questionContainer.addClass("hide");
     resultContainer.addClass("hide")
     homePage.removeClass("hide");
-    location.reload(); // added on Mar 16th 
+    location.reload(); // added on Mar 16th
 }
 
 )
@@ -177,9 +179,9 @@ function handleScore() {
 
     }
     console.log(userScore);
-    console.log(peopleIndex);// added on Mar 16th 
+    console.log(peopleIndex);// added on Mar 16th
 
-    function characterInfo() {// added on Mar 16th 
+    function characterInfo() {// added on Mar 16th
         const API_URL ="https://swapi.dev/api/people/" + peopleIndex
         fetch(API_URL, {
             method: "GET"
@@ -189,7 +191,7 @@ function handleScore() {
             console.log(response.name);
             if (response.name === "Dooku") {
                 responseName = "Count " + response.name
-            }  
+            }
             else responseName = response.name;
                 if (localStorage.getItem("CharacterOne_name") === null) {
                     localStorage.setItem("CharacterOne_name", responseName);
@@ -205,21 +207,21 @@ function handleScore() {
                  if (localStorage.getItem("CharacterOne_name") !== null && localStorage.getItem("CharacterTwo_name") !== null  ){
                     beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
                     localStorage.setItem("CharacterOne_name", localStorage.getItem("CharacterTwo_name"));
-                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name")); 
+                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name"));
                     localStorage.setItem("CharacterTwo_name", localStorage.getItem("CharacterThree_name"));
-                    
+
                     }
-                } 
+                }
                  else {
                     localStorage.setItem("CharacterThree_name", responseName);
                     beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
                     localStorage.setItem("CharacterOne_name", localStorage.getItem("CharacterTwo_name"));
-                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name")); 
+                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name"));
                     localStorage.setItem("CharacterTwo_name", localStorage.getItem("CharacterThree_name"));
-                    
-                    
+
+
                  }
-                
+
             var characterRes = document.createElement("span");
             characterRes.setAttribute("class","result container is-widescreen result-container");
             characterRes.innerHTML = responseName;
@@ -250,12 +252,8 @@ function handleScore() {
         })
 
 
-        
+
     };
-    
+
     characterInfo()// added on Mar 16t
 }
-
-
-
-
