@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Star Wars Personality Quiz</title>
 </head>
 <body>
+  <div id="background">
+
     <div class="container is-widescreen" id="homePage">
+      <div id="particles-js" class="particles">
         <div class="notification">
           <h1 class="title is-1">Which Star Wars Character Are You</h1>
 
@@ -22,7 +25,7 @@
           <p id ="quote">“You can’t stop the change, any more than you can stop the suns from setting.”— Shmi Skywalker.</p>
 
           <button class="button startBtn is-white" id="startBtn">Take the Quiz Now</button>
-
+        </div>
         </div>
       </div>
 
@@ -401,7 +404,7 @@
             </label>
 
             <label class="radio">
-              <input class="raidoBtnBig"  type="radio" name="answer10" value= 14 > 
+              <input class="raidoBtnBig"  type="radio" name="answer10" value= 14 >
               AGREE
             </label>
           </div>
@@ -430,30 +433,25 @@
       </br>
 
       <div class=" container row inRowcontainer">
-        <div class="media-content" id="beforeBtnONe">
-          <h4 class="title is-4">Before</h4>
-          <figure class="image is-48x48">
-            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-          </figure>
+        <div class="media-content" >
+          <h4 class="title is-4">previously one</h4>
+          <span id="beforeBtnOne"></span>
         </div>
 
-        <div class="media-content" id="beforeBtnONe">
-          <h4 class="title is-4">After</h4>
-          <figure class="image is-48x48">
-            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-          </figure>
+        <div class="media-content" >
+          <h4 class="title is-4">previously two</h4>
+          <span id="beforeBtnTwo"></span>
         </div>
         </div>
         <button class="button restartBtn" id="restartBtn">Restart button</button>
       </div>
     </div>
-
-
     <footer>
       <p>
         Created in collaboration by Cas McDonald, Kenny Boyer, Shangxian Piao, and William Flores</h1>
         <img class="swg swg-reball swg-4x"></img>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
