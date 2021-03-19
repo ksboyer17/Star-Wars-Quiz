@@ -9,7 +9,6 @@ var resultDescription = $("#resultDescription")
 var resultImage = $("#resultImage")
 var beforeBtnOne = $("#beforeBtnOne")
 var beforeBtnTwo = $("#beforeBtnTwo")
-var particles = $("#particles-js")
 var responseName = ""
 
 console.log("this is linked")
@@ -18,7 +17,6 @@ console.log("this is linked")
 startBtn.click(function() {
     homePage.addClass("hide");
     questionContainer.removeClass("hide")
-    particles.removeClass("particles");
 });
 
 
@@ -182,7 +180,7 @@ function handleScore() {
     console.log(peopleIndex);// added on Mar 16th
 
     function characterInfo() {// added on Mar 16th
-        const API_URL ="https://swapi.dev/api/people/" + peopleIndex
+        const API_URL ="https://cors-anywhere.herokuapp.com/https://swapi.dev/api/people/" + peopleIndex
         fetch(API_URL, {
             method: "GET"
         })
