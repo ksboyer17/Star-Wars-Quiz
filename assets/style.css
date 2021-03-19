@@ -9,6 +9,13 @@ h2{
   font-size: 20px;
 }
 
+
+h4{
+  font-family: "Jedi", "Helvetica", "Arial", sans-serif;
+  font-size: 26px;
+  color: yellow;
+}
+
 @font-face {
   font-family: 'Jedi';
   src: url('./fonts/starjedi.eot'); /* IE9 Compat Modes */
@@ -36,6 +43,9 @@ h2{
   font-family: "Jedi", "Helvetica", "Arial", sans-serif;
   color: yellow;
 }
+.title.is-4{
+  color: yellow;
+}
 
 footer p {
   font-family: "Jedi", "Helvetica", "Arial", sans-serif;
@@ -50,10 +60,18 @@ footer p {
     color: white;
     line-height: 30px;
     margin-top: 2rem;
+    font-size: 18px;
+}
+
+#beforeBtnOne{
+  font-size: 22px;
+}
+#beforeBtnTwo{
+  font-size: 22px;
 }
 
 #quote{
-
+  font-size: 18px;
   font-style: italic;
   margin-top: 1rem;
 }
@@ -73,8 +91,10 @@ label:hover{
 .resultBtn {
     width: 400px;
     margin: 2.5rem;
-    color: black ;
     background-color: yellow !important;
+    font-family: "Jedi", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    color: black ;
 }
 
 .image {
@@ -173,4 +193,20 @@ label:hover{
     transform: scale(1.015);
     box-shadow: 0 5px 15px yellow;
     transition: box-shadow 0.3s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 993px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+
 }
