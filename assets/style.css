@@ -4,6 +4,18 @@
     background-color: black !important;
 }
 
+/* body{
+  background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+  letter-spacing: 1px;
+  background-color: #000000;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+} */
+
 h2{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -15,6 +27,19 @@ h4{
   font-size: 26px;
   color: yellow;
 }
+
+.container{
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+}
+
+canvas{
+  position: absolute;
+  top: 0;
+}
+
 
 @font-face {
   font-family: 'Jedi';
@@ -29,11 +54,7 @@ h4{
        letter-spacing: 5px;
 }
 
-.container {
-    text-align: center;
-    align-items: center;
-    /* background-color: black; */
-}
+
 
 .notification {
     background-color: black;

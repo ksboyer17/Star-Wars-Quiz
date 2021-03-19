@@ -9,7 +9,7 @@ var resultDescription = $("#resultDescription")
 var resultImage = $("#resultImage")
 var beforeBtnOne = $("#beforeBtnOne")
 var beforeBtnTwo = $("#beforeBtnTwo")
-
+var responseName = ""
 
 console.log("this is linked")
 
@@ -187,20 +187,39 @@ function handleScore() {
         .then(responce => responce.json())
         .then(function(response){
             console.log(response.name);
-            var responseName = response.name;
+            if (response.name === "Dooku") {
+                responseName = "Count " + response.name
+            }  
+            else responseName = response.name;
                 if (localStorage.getItem("CharacterOne_name") === null) {
                     localStorage.setItem("CharacterOne_name", responseName);
                     beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
-                    
-                } if (localStorage.getItem("CharacterTwo_name") === null) {
+                } else if (localStorage.getItem("CharacterTwo_name") === null) {
                     localStorage.setItem("CharacterTwo_name", responseName);
-                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name"));
-                } if (localStorage.getItem("CharacterOne_name") !== null && localStorage.getItem("CharacterTwo_name") !== null ){
-                    localStorage.setItem("CharacterOne_name", localStorage.getItem("CharacterTwo_name"));
-                    localStorage.setItem("CharacterTwo_name", responseName);
+                    console.log("CharacterTwo_name")
                     beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
                     beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name"));
-                };
+                } else if (localStorage.getItem("CharacterThree_name") === null) {
+                    localStorage.setItem("CharacterThree_name", responseName);
+                    console.log("CharacterThree_name")
+                 if (localStorage.getItem("CharacterOne_name") !== null && localStorage.getItem("CharacterTwo_name") !== null  ){
+                    beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
+                    localStorage.setItem("CharacterOne_name", localStorage.getItem("CharacterTwo_name"));
+                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name")); 
+                    localStorage.setItem("CharacterTwo_name", localStorage.getItem("CharacterThree_name"));
+                    
+                    }
+                } 
+                 else {
+                    localStorage.setItem("CharacterThree_name", responseName);
+                    beforeBtnOne.text(localStorage.getItem("CharacterOne_name"));
+                    localStorage.setItem("CharacterOne_name", localStorage.getItem("CharacterTwo_name"));
+                    beforeBtnTwo.text(localStorage.getItem("CharacterTwo_name")); 
+                    localStorage.setItem("CharacterTwo_name", localStorage.getItem("CharacterThree_name"));
+                    
+                    
+                 }
+                
             var characterRes = document.createElement("span");
             characterRes.setAttribute("class","result container is-widescreen result-container");
             characterRes.innerHTML = responseName;
