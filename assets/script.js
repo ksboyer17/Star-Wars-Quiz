@@ -80,7 +80,7 @@ function handleScore() {
         resultDescription.text(userDescription);
         var peopleIndex = 21;
 
-    } if (userScore > 26 && userScore <= 31){
+    } if (userScore >= 26 && userScore <= 31){
         var userDescription = "You are a Sith Lord drawn to the dark side of the Force due to chaotic events in your life. You are authoritarian, serious, and powerful.";
         resultDescription.text(userDescription)
         var peopleIndex = 4;
