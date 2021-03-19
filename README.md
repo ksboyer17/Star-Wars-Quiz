@@ -8,27 +8,29 @@ In the user eyes, we wanted to provide them with an introduction to our applicat
 
 In order to align users with a character, we assigned point values to questions and to the characters. Depending on the point value scored through the quiz, users have the chance to be assigned any of the characters below.
 
-Score / Character Range:
-1.Palpatine: 20-25
-2.Vader: 26-31
-3.Count Dooku: 32-37
-4.Darth Maul: 38-43
-5.General Grievous: 44-59
-6.Nute Gunray: 51-56
-7.Greedo -57-62
-8.Boba Fett: 63-68
-9.Anakin Skywalker: 69-74
-10.Lando Calirissian: 75-80
-11.C3P0: 81-86
-12.R2D2: 87-92
-13.Jar Jar Binx: 93-98
-14.Chewbacca: 99-104
-15.Han Solo: 105-110
-16.Leia Organa: 111-116
-17.Luke Skywalker: 117-122
-18.Obiwan Kenobi- 123-128
-19.Yoda- 129-134
-20.Mace Windu - 135-140
+```
+Characters:
+Palpatine
+Vader
+Count Dooku
+Darth Maul
+General Grievous
+Boba Fett
+Nute Gunray
+Greedo 
+Anakin Skywalker
+Lando Calirissian
+C3P0
+R2D2
+Jar Jar Binx
+Chewbacca
+Han Solo
+Leia Organa
+Luke Skywalker
+Obiwan Kenobi
+Yoda
+Mace Windu 
+```
 
 **Link to Deployed Page:**
 https://ksboyer17.github.io/Star-Wars-Quiz/ -
@@ -47,12 +49,14 @@ https://github.com/ksboyer17/Star-Wars-Quiz -
  https://xd.adobe.com/view/b959ec12-9fa1-4711-b723-59203ee201e7-ec0a/?fullscreen -
 [Adobe](https://xd.adobe.com/view/b959ec12-9fa1-4711-b723-59203ee201e7-ec0a/?fullscreen)
 
+**Home Page**
+![Screenshot of the Home Page](https://github.com/ksboyer17/Star-Wars-Quiz/blob/main/assets/screenshots/screenshot-home.png?raw=true)
 
-![Screenshot of the Start Page]()
+**Quiz**
+![Screenshot of the Quiz](https://github.com/ksboyer17/Star-Wars-Quiz/blob/main/assets/screenshots/screenshot-quiz.png?raw=true)
 
-![Screenshot of the Quiz]()
-
-![Screenshot of the Final Page]()
+**Results Page**
+![Screenshot of the Results Page](https://github.com/ksboyer17/Star-Wars-Quiz/blob/main/assets/screenshots/screenshot-result.png?raw=true)
 
 This project was generated as a collaborative effort by Casandra Mcdonald, William Flores, Shangxian Piao and Kenny Boyer.
 This project was generated using a combination of HTML, CSS, and Javascript.
