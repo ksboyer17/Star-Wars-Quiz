@@ -9,7 +9,6 @@ var resultDescription = $("#resultDescription")
 var resultImage = $("#resultImage")
 var beforeBtnOne = $("#beforeBtnOne")
 var beforeBtnTwo = $("#beforeBtnTwo")
-var particles = $("#particles-js")
 var responseName = ""
 
 console.log("this is linked")
@@ -18,7 +17,6 @@ console.log("this is linked")
 startBtn.click(function() {
     homePage.addClass("hide");
     questionContainer.removeClass("hide")
-    particles.removeClass("particles");
 });
 
 
