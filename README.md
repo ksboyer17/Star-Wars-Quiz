@@ -9,26 +9,26 @@ In the user eyes, we wanted to provide them with an introduction to our applicat
 In order to align users with a character, we assigned point values to questions and to the characters. Depending on the point value scored through the quiz, users have the chance to be assigned any of the characters below.
 
 Score / Character Range:
-Palpatine: 20-25
-Vader: 26-31
-Count Dooku: 32-37
-Darth Maul: 38-43
-General Grievous: 44-59
-Nute Gunray: 51-56
-Greedo -57-62
-Boba Fett: 63-68
-Anakin Skywalker: 69-74
-Lando Calirissian: 75-80
-C3P0: 81-86
-R2D2: 87-92
-Jar Jar Binx: 93-98
-Chewbacca: 99-104
-Han Solo: 105-110
-Leia Organa: 111-116
-Luke Skywalker: 117-122
-Obiwan Kenobi- 123-128
-Yoda- 129-134
-Mace Windu - 135-140
+1.Palpatine: 20-25
+2.Vader: 26-31
+3.Count Dooku: 32-37
+4.Darth Maul: 38-43
+5.General Grievous: 44-59
+6.Nute Gunray: 51-56
+7.Greedo -57-62
+8.Boba Fett: 63-68
+9.Anakin Skywalker: 69-74
+10.Lando Calirissian: 75-80
+11.C3P0: 81-86
+12.R2D2: 87-92
+13.Jar Jar Binx: 93-98
+14.Chewbacca: 99-104
+15.Han Solo: 105-110
+16.Leia Organa: 111-116
+17.Luke Skywalker: 117-122
+18.Obiwan Kenobi- 123-128
+19.Yoda- 129-134
+20.Mace Windu - 135-140
 
 **Link to Deployed Page:**
 https://ksboyer17.github.io/Star-Wars-Quiz/ -
