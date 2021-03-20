@@ -1,238 +1,305 @@
-*{
-    color: white;
+  :root{
+    --yellow: yellow;
+    --white: white;
+    --black: black;
+  }
+
+  @font-face {
+    font-family: 'Jedi';
+    src: url('./fonts/starjedi.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/starjedi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/starjedi.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/starjedi.woff') format('woff'), /* Pretty Modern Browsers */
+         url('./fonts/starjedi.ttf') format('truetype'),
+        url('./fonts/starjedi.svg#starjedi') format('svg');
+         font-weight: 500;
+         font-style: normal;
+         letter-spacing: 5px;
+  }
+
+  *{
+      color: var(--white);
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--black);
+  }
+
+
+  h2{
     font-family: 'Roboto', sans-serif;
-    background-color: black !important;
-}
-
-/* body{
-  background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
-  letter-spacing: 1px;
-  background-color: #000000;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  background-size: cover;
-} */
-
-h2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
 
 
-h4{
-  font-family: "Jedi", "Helvetica", "Arial", sans-serif;
-  font-size: 26px;
-  color: yellow;
-}
+  h4{
+    font-family: "Jedi", "Helvetica", "Arial", sans-serif;
+    font-size: 26px;
+    color: var(--yellow);
+  }
 
-.container{
-    width: 100%;
-    height: 100%;
+  canvas{
+    position: fixed;
+    top: 0;
+  }
+
+  footer{
     z-index: 1;
-    text-align: center;
-    align-items: center;
-}
+  }
 
-canvas{
-  position: fixed;
-  top: 0;
-}
-
-footer{
-  z-index: 1;
-}
-
-
-@font-face {
-  font-family: 'Jedi';
-  src: url('./fonts/starjedi.eot'); /* IE9 Compat Modes */
-  src: url('./fonts/starjedi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/starjedi.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/starjedi.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./fonts/starjedi.ttf') format('truetype'),
-      url('./fonts/starjedi.svg#starjedi') format('svg');
-       font-weight: 500;
-       font-style: normal;
-       letter-spacing: 5px;
-}
-
-
-
-.notification {
-    background-color: black;
-}
-
-.title.is-1 {
-  font-family: "Jedi", "Helvetica", "Arial", sans-serif;
-  color: yellow;
-}
-.title.is-4{
-  color: yellow;
-}
-
-footer p {
-  font-family: "Jedi", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  color: yellow;
-  margin-bottom: 30px;
-}
-
-#intro{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    line-height: 30px;
-    margin-top: 2rem;
-    font-size: 18px;
-}
-
-#beforeBtnOne{
-  font-size: 22px;
-}
-#beforeBtnTwo{
-  font-size: 22px;
-}
-
-#quote{
-  font-size: 18px;
-  font-style: italic;
-  margin-top: 1rem;
-}
-
-label{
-  font-family: "Jedi", "Helvetica", "Arial", sans-serif;
-  font-size: 20px;
-  color: yellow;
-}
-
-label:hover{
-  color: white;
-}
-
-.startBtn,
-.restartBtn,
-.resultBtn {
-    width: 400px;
-    margin: 2.5rem;
-    background-color: yellow !important;
+  label{
     font-family: "Jedi", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
-    color: black ;
-}
+    color: var(--yellow);
+  }
 
-.image {
-    padding-top: 0px !important;
+  label:hover{
+    color: var(--white);
+  }
 
-}
-
-.question-container {
-    color: yellow;
-}
-
-.question{
-  margin-top: 10px;
-}
-
-.radio{
-  margin-bottom: 100px;
-}
-
-.result{
-  font-family: 'Roboto', sans-serif;
-  font-size: 26px;
-  color: yellow;
-}
-
-
-.raidoBtnBig {
-    width: 5em;
-    height: 5em;
-    margin: 10px;
-}
-
-.raidoBtnMid {
-    width: 4em;
-    height: 4em;
-    margin: 10px;
-}
-
-.raidoBtnSmall {
-    width: 3em;
-    height: 3em;
-    margin: 10px;
-}
-
-.raidoBtnReg {
-    width: 2em;
-    height: 2em;
-    margin: 10px;
-}
-
-.startBtn:hover,
-.restartBtn:hover,
-.resultBtn:hover {
-    transform: scale(1.25);
-    transition: 0.3s;
-}
-
-.hide {
-    display: none;
-}
-
-.resultBtn {
-    background-color: yellow !important;
-}
-
-
-.resultImage {
-    align-items: center;
+  footer p {
+    font-family: "Jedi", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
     text-align: center;
-}
+    color: var(--yellow);
+    margin-bottom: 30px;
+  }
 
-.row {
-    display: grid;
-    gap: 1rem;
-    grid-auto-flow: column;
-    margin: 0 0 1rem 0;
-}
+  .container{
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      text-align: center;
+      align-items: center;
+  }
 
-#resultDescription {
-    word-wrap: normal;
-}
+  .notification {
+      background-color: var(--black);
+  }
 
-#resulteName{
-  font-family: 'Roboto', sans-serif;
-  font-size: 26px;
-  color: yellow;
-}
+  .title.is-1 {
+    font-family: "Jedi", "Helvetica", "Arial", sans-serif;
+    color: var(--yellow);
+  }
 
-.media-content {
-    border: 1px solid;
-    border-color: yellow;
-    padding: 10px;
-}
+  .title.is-4{
+    color: var(--yellow);
+  }
 
-.media-content:hover {
-    transform: scale(1.015);
-    box-shadow: 0 5px 15px yellow;
-    transition: box-shadow 0.3s ease-in-out;
-}
+  .startBtn,
+  .restartBtn,
+  .resultBtn {
+      width: 400px;
+      margin: 2.5rem;
+      background-color: yellow !important;
+      font-family: "Jedi", "Helvetica", "Arial", sans-serif;
+      font-size: 20px;
+      color: var(--black) ;
+  }
 
-@media (max-width: 1200px) {
+  .startBtn:hover,
+  .restartBtn:hover,
+  .resultBtn:hover {
+      transform: scale(1.25);
+      transition: 0.3s;
+  }
 
-}
+  .image {
+      padding-top: 0px !important;
 
-@media (max-width: 993px) {
+  }
 
-}
+  .question-container {
+    color: var(--yellow);
+  }
+
+  .question{
+    margin-top: 10px;
+  }
+
+  .radio{
+    margin-bottom: 100px;
+  }
+
+  .result{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: var(--yellow);
+  }
+
+
+  .raidoBtnBig {
+      width: 5em;
+      height: 5em;
+      margin: 10px;
+  }
+
+  .raidoBtnMid {
+      width: 4em;
+      height: 4em;
+      margin: 10px;
+  }
+
+  .raidoBtnSmall {
+      width: 3em;
+      height: 3em;
+      margin: 10px;
+  }
+
+  .raidoBtnReg {
+      width: 2em;
+      height: 2em;
+      margin: 10px;
+  }
+
+  .hide {
+      display: none;
+  }
+
+  .resultBtn {
+      background-color: var(--yellow);
+  }
+
+
+  .resultImage {
+      align-items: center;
+      text-align: center;
+  }
+
+  .row {
+      display: grid;
+      gap: 1rem;
+      grid-auto-flow: column;
+      margin: 0 0 1rem 0;
+  }
+
+  .media-content {
+      border: 1px solid;
+      border-color: var(--yellow);
+      padding: 10px;
+  }
+
+  .media-content:hover {
+      transform: scale(1.015);
+      box-shadow: 0 5px 15px yellow;
+      transition: box-shadow 0.3s ease-in-out;
+  }
+
+  #resultDescription {
+      word-wrap: normal;
+      margin: 10px;
+  }
+
+  #resulteName{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: var(--yellow);
+  }
+
+  #intro{
+      font-family: 'Roboto', sans-serif;
+      color: var(--white);
+      line-height: 30px;
+      margin-top: 2rem;
+      font-size: 18px;
+  }
+
+  #beforeBtnOne{
+    font-size: 22px;
+  }
+  #beforeBtnTwo{
+    font-size: 22px;
+  }
+
+  #quote{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 1rem;
+  }
+
 
 @media (max-width: 768px) {
+  .title.is-1{
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
 
-}
+  #intro{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  #quote{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .startBtn,
+  .restartBtn,
+  .resultBtn {
+      width: 200px;
+      margin: 20px;
+      background-color: yellow !important;
+      font-family: "Jedi", "Helvetica", "Arial", sans-serif;
+      font-size: 16px;
+      color: var(--black);
+  }
+  .startBtn:hover,
+  .restartBtn:hover,
+  .resultBtn:hover {
+      transform: none;
+  }
+  footer p{
+    font-size: 12px;
+  }
 
-@media (max-width: 600px) {
+  .result{
+    margin-top: 10px;
+    font-size: 16px;
+  }
 
+  #resultDescription{
+    font-size: 14px;
+  }
+
+  h4{
+    font-size: 16px;
+  }
+  .title.is-4{
+    font-size: 1.2rem;
+  }
+  #beforeBtnOne{
+    font-size: 14px;
+  }
+  #beforeBtnTwo{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .questtion{
+    margin-bottom: 10px;
+  }
+  .radio{
+    margin-bottom: 0px;
+  }
+  .raidoBtnBig{
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+  .raidoBtnMid{
+    width: auto;
+    height: auto;
+    margin: 0px;
+  }
+  .raidoBtnSmall{
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+  .raidoBtnReg{
+    width: auto;
+    height: auto;
+    margin: 0px;
+  }
+  label{
+    font-size: 10px;
+  }
 }
