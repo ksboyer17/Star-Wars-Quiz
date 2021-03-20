@@ -17,9 +17,9 @@ Darth Maul
 General Grievous
 Boba Fett
 Nute Gunray
-Greedo 
+Greedo
 Anakin Skywalker
-Lando Calirissian
+Lando Calrissian
 C3P0
 R2D2
 Jar Jar Binx
@@ -29,7 +29,7 @@ Leia Organa
 Luke Skywalker
 Obiwan Kenobi
 Yoda
-Mace Windu 
+Mace Windu
 ```
 
 **Link to Deployed Page:**
