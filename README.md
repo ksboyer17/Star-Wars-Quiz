@@ -60,3 +60,16 @@ https://github.com/ksboyer17/Star-Wars-Quiz -
 
 This project was generated as a collaborative effort by Casandra Mcdonald, William Flores, Shangxian Piao and Kenny Boyer.
 This project was generated using a combination of HTML, CSS, and Javascript.
+
+**Swapi API Information**
+Copyright 
+Star Wars and all associated names are copyright Lucasfilm ltd.
+
+This project is open source and carries a BSD licence.
+
+All data has been freely collected from open sources such as Wookiepedia.
+
+**Giphy API Information**
+1. API License; Restrictions.
+
+The API, and all intellectual property rights therein, are and shall at all times remain our and our licensors’ sole and exclusive property. Subject to these API Terms, we grant to you a non-exclusive, non-transferable, non-assignable, non-sublicensable, revocable, worldwide, limited, right and license to access and use the API solely to allow for the creation of software applications that interface with Giphy’s products and services (collectively, the "Applications"). You shall not use content you obtain through Giphy’s products and services to create a database, directory, or index containing GIFs or digital stickers or to improve, edit, augment or supplement any existing database, directory, or index containing GIFs or digital stickers. In addition, you shall not commingle Giphy search results with search results of another provider without Giphy's express written approval. You are solely responsible for any Applications that make use of Giphy’s products and services and for providing all support and technical assistance to end users of the Applications. You shall not represent to any of your end users that we are available to provide such support. We reserve the right to deny and/or revoke access to the API at any time, without notice. Your access to and use of the API may be interrupted for the duration of any scheduled, unscheduled, or unanticipated downtime, suspension or other unavailability, for any reason and in our sole discretion.
