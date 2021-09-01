@@ -33,7 +33,7 @@ Mace Windu
 ```
 
 **Link to Deployed Page:**
-https://ksboyer17.github.io/Star-Wars-Quiz/ -
+https://wflores230.github.io/Star-Wars-Quiz/ -
 [GitHub](https://ksboyer17.github.io/Star-Wars-Quiz/ )
 
 
